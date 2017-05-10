@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+
+
+header{
+width:100%;
+margin:0 auto;
+
+}
+.menu{
+position: fixed;
+width:200px;
+height:100%;
+ float:right;
+left:-200;
+background-color: white;	
+}
+.menu ul{
+	width:100%;
+	float:left;
+	margin-top:100px;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+.menu ul li{
+	margin-top:10px;	
+	
+}
+
+.menu ul li:first-child{
+margin-top:100px;
+}
+.menu ul li:hover{
+	background:#fff;
+	
+	border-radius: 10px;
+}
+.menu ul li a{
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 0;
+	
+	color: black;
+}
+
+.menu ul li:hover a{
+color:black;
+}
+
+
+/*			MENUBUTTON			*/
+#menuButton{
+	
+	font-size:2em;
+	color:#fff;
+	margin:0px 10px;
+	color: green;
+}
+#menuButton a{
+	
+	cursor:pointer;
+	transition:all 0.2s;
+}
+#menuButton a:hover{
+	color:#f06;
+	
+}
+/*			CLOSEBUTTON		*/
+
+
+.closeButton{
+
+	position: fixed;
+	font-size:1.5em;
+	color:#fff;
+	left:-40px;
+	top:10px;
+	color: green;
+	
+}
+.closeButton a:hover{
+	color:#333;
+	cursor:pointer;
+	
+}
+/*			MAIN	*/
+.main{
+width:100%;
+	margin:0 auto;
+}
+
+.main h1{
+	text-align:center;
+	font-size:7em;
+	color:rgba(255,255,255,0.8);
+	line-height:400px;
+	font-weight:bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.icon-heart{
+font-size:0.8em;	
+}
+
+
+
