@@ -1,0 +1,114 @@
+<html>
+<body>
+	<head>
+		<link href="stile.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Source Code Pro">
+    <meta charset=UTF-8 />
+
+<link href="css/stile.css" rel="stylesheet" type="text/css" media="screen">
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<title>scuola</title>
+		
+  
+	</head>
+
+  <header>
+
+
+<div id="container">
+
+  <center><h1 id="titolo">Titolo_Sito</h1></center>
+
+      <div class="menu">
+      
+      <div id="utente">
+        <center>
+          <img class="immagine-utente" src="2016-05-30 15.39.09.jpg">
+          <h2 class="nome-utente">Nome_utente</h2>
+          <h5 class="nikname">NickName</h5>
+          <p clss="descrizione">descrizone del soggetto</p>
+        </center>
+      </div>
+                <ul>
+                   <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Materie</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Media</a></li>
+                    <li><a href="Pubblica.html">Pubblica</a></li>
+                    <li><a href="help.html">Help</a></li>
+                
+                </ul>
+                
+        </div>   
+        <div class="closeButton"><a class="icon-close"></a></div>
+
+        <div id="menuButton"><a class="icon-menu"></a></div>
+      </div>
+
+    </header>
+<div id="pubblica">
+  <center>
+   <form> 
+    
+      <legend>Materia</legend>
+      <br>
+        <select name="siti" >
+          <option value="#" selected="selected">matematica  </option>
+          <option value="#">latino  </option>
+          <option value="#">roba  </option>
+        </select>
+   </form>
+   <form>
+    <legend>pagina e numero</legend>
+    <input class="pag-n" type="text" ></input>
+   </form> 
+   <br>
+    <form> 
+       <legend>descrizione *</legend>
+    <input class="descrizione-pubblica" type="text" ></input>
+    </form>
+    <br>
+    <button class="invio-pubblica"></button>
+    </center>
+</div>
+
+
+
+    <script>
+  $('#menuButton').click(function()
+{
+     $('.menu').
+            animate({"left":"0px"}, 1000);
+       });
+
+
+  $('#menuButton').click(function()
+{
+     $('.closeButton').
+            animate({"left":"160px"}, 1000);
+       });
+
+
+  
+
+     
+       $('.closeButton').click(function()
+{
+     $('.menu').animate({"left":"-200px"}, 1000);
+});
+
+       $('.closeButton').click(function()
+{
+     $('.closeButton').animate({"left":"-160px"}, 1000);
+});
+
+  
+</script>
+
+
+</body>
+</html>
